@@ -1,0 +1,9 @@
+spacy
+transformers
+pdfminer.six
+docx2txt
+nltk
+scikit-learn
+gensim
+numpy
+pandas

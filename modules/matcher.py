@@ -1,6 +1,6 @@
 import spacy
 
-# Load spaCy model for similarity calculation
+
 nlp = spacy.load("en_core_web_sm")
 
 def calculate_similarity(resume_text, job_desc_text):

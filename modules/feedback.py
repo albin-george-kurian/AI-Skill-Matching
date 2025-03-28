@@ -6,7 +6,7 @@ def generate_recommendations(resume_data, job_description, current_score):
     
     The heuristic assumes that each missing keyword may improve the match score by 3 percentage points.
     """
-    # Normalize keywords from resume and job description
+    # Normalization
     resume_keywords = set([kw.lower() for kw in resume_data.get("keywords", [])])
     job_keywords = set([word.strip(",.").lower() for word in job_description.split() if len(word) > 3])
     
